@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Profissional</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header> <!-- Cabeçalho -->
+        <button id="toggleTema">Modo Escuro</button> <!-- Botao que altera modo de exibiçao -->
+        <div class="menu-toggle">☰</div> <!-- icone sandwich que e exibido quando entra em modo mobile -->
+        <nav id="menu">
+            <ul> <!-- lista nao ordenada que exibe os botoes para navegar entre as paginas-->
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portifolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="secao">
+            <h1>Contato</h1>
+            <form id="formContato">
+                <input type="text" id="nome" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            <p id="feedback"></p>
+        </section>
+    </main>
+
+    <footer> <!-- Rodape que exibe meu nome e RU-->
+        <p>&copy; 2026 Felipe Silva Lopes - RU: 5442228</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
