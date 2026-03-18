@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
 
             // Exibe mensagem de sucesso personalizada com o nome do usuário
-            feedback.innerText = `Obrigado, ${nome}! Sua mensagem foi enviada com sucesso (simulação).`;
+            feedback.innerText = `Obrigado, ${nome}! Sua mensagem foi enviada com sucesso!.`;
 
             // Define a cor do texto como verde
             feedback.style.color = "green";
